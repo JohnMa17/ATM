@@ -13,6 +13,7 @@ namespace ATM
         static object lockObject = new object();
         static Random RNG = new Random();
         static void Main(string[] args)
+
         {
             Thread Hilo = new Thread(Obtener);
             Hilo.Start();
